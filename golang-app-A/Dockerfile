@@ -37,4 +37,4 @@ FROM node:10.18.0
 
 RUN npm install -g newman
 RUN npm install -g newman-reporter-allure
-RUN npm install -g allure-commandline
+RUN npm install -g allure-commandline --save-dev
